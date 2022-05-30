@@ -1,0 +1,11 @@
+.img-content img {
+  width: 100%;
+}
+
+.cusor-p {
+  cursor: pointer;
+}
+
+.header-container {
+  background-color: #000;
+}

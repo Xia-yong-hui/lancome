@@ -1,0 +1,538 @@
+@charset "UTF-8";
+
+.header-container {
+  background-color: #000;
+}
+
+.black {
+  z-index: 9;
+}
+
+.class-img .option {
+  position: relative;
+}
+
+.class-img .option .list-inline {
+  position: absolute;
+  left: 140px;
+  padding: 16px 0;
+}
+
+.class-img .option .list-inline li {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.class-img .option .list-inline li a {
+  color: #fff;
+  cursor: pointer;
+}
+
+.class-img .option .list-inline li+li::before {
+  padding: 0 6px;
+  content: ">";
+  color: #fff;
+}
+
+.class-img .banner img {
+  width: 100%;
+}
+
+.class-img .banner .banner-title {
+  display: block;
+  max-width: 1280px;
+  padding: 0 20px;
+  margin: 0 auto;
+  position: absolute;
+  top: 250px;
+  left: 120px;
+}
+
+.class-img .banner .banner-title h1 {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+.class-img .banner .banner-title h6 {
+  font-size: 18px;
+  margin: 12px 0;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+.back-top {
+  font-size: 0;
+  width: 50px;
+  height: auto;
+  text-align: center;
+  background: 0 0;
+  position: fixed;
+  right: 0;
+  bottom: 100px;
+  z-index: 8;
+  cursor: pointer;
+  display: block;
+}
+
+.back-top .top img:hover,
+.back-top a:hover {
+  width: 120%;
+  position: relative;
+  right: 5px;
+}
+
+.back-top div {
+  margin-bottom: 3px;
+}
+
+.back-top div a {
+  width: 50px;
+  height: 50px;
+  display: block;
+  color: white;
+  background: #323332;
+  font-size: 18px;
+}
+
+.back-top div a:hover {
+  background: #9fc8ce;
+}
+
+.is-open .filter-content {
+  display: none;
+}
+
+.list {
+  max-width: 1240px;
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list .list-content {
+  position: relative;
+  margin: 35px 0;
+}
+
+.list .list-content .left-nav {
+  float: left;
+  position: relative;
+  height: auto;
+  margin-right: -266px;
+  width: 266px;
+}
+
+.list .list-content .left-nav .filter-title {
+  margin-bottom: 22px;
+}
+
+.list .list-content .left-nav .filter-title p {
+  font-size: 14px;
+  color: #000;
+  font-weight: 700;
+}
+
+.list .list-content .left-nav .filter-classify {
+  margin-bottom: 16px;
+}
+
+.list .list-content .left-nav .filter-classify li {
+  margin-bottom: 22px;
+  font-size: 14px;
+}
+
+.list .list-content .left-nav .filter-classify li a {
+  color: #999;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.list .list-content .left-nav .filter-main {
+  padding-bottom: 65px;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper {
+  padding-top: 8px;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filtername {
+  cursor: pointer;
+  position: relative;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filtername span {
+  font-size: 14px;
+  color: #000;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  letter-spacing: 1.5px;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filtername i {
+  position: absolute;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 4px;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filtername i::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  background: #999;
+  width: 10px;
+  height: 2px;
+  top: 50%;
+  margin-top: -1px;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content {
+  display: block;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .tinyscroll {
+  position: relative;
+  margin-right: 20px;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .tinyscroll .viewport {
+  /* height: 314px; */
+  overflow: hidden;
+  position: relative;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .tinyscroll .viewport ul {
+  clear: both;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .tinyscroll .viewport ul li {
+  margin-bottom: 15px;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .tinyscroll .viewport ul li a {
+  display: block;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  position: relative;
+  padding: 0 0 0 26px;
+  color: #999;
+  line-height: 20px;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .tinyscroll .viewport ul li a .icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-image: url(../images/精灵图.png);
+  background-position: -266px -265px;
+  width: 20px;
+  height: 20px;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .tinyscroll .viewport ul .is-active .icon {
+  background: url(../images/精灵图.png);
+  background-position: -351px -297px;
+  width: 20px;
+  height: 20px;
+  z-index: 8;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .tinyscroll .scroll {
+  width: 8px;
+  height: 314px;
+  background-color: transparent;
+  position: absolute;
+  right: -20px;
+  top: 0;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .tinyscroll .scroll .track {
+  width: 8px;
+  height: 314px;
+  background: #f1f1f1;
+  position: relative;
+  right: 0;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .tinyscroll .scroll .track .thumb {
+  width: 8px;
+  height: 256px;
+  width: 100%;
+  background: #000;
+  border-radius: 6px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .filter-product .price-range {
+  width: 100%;
+  height: 27px;
+  position: relative;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .filter-product .price-range .range {
+  display: inline-block;
+  color: #999;
+  margin: 0 4px;
+  width: 5px;
+  font-size: 0;
+  height: 27px;
+  vertical-align: bottom;
+  position: relative;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .filter-product .price-range .range::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 11px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #999;
+}
+
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .filter-product .price-range .min-price,
+.list .list-content .left-nav .filter-main .filter-wrapper .filter-content .filter-product .price-range .max-price {
+  width: 48px;
+  height: 27px;
+  background: #fff;
+  display: inline-block;
+  padding-left: 0;
+  text-align: center;
+  border-radius: 0;
+  color: #999;
+}
+
+.list .list-content .right-data {
+  position: relative;
+  margin-left: 321px;
+}
+
+.list .list-content .right-data .top-page {
+  line-height: 40px;
+  height: 42px;
+}
+
+.list .list-content .right-data .top-page .goods-total {
+  float: left;
+  width: 70px;
+  margin: 0;
+}
+
+.list .list-content .right-data .top-page .goods-select {
+  float: right;
+  width: 210px;
+  height: 42px;
+  border: 1px solid gray;
+  padding-left: 10px;
+  position: relative;
+}
+
+.list .list-content .right-data .top-page .goods-select i {
+  width: 22px;
+  height: 22px;
+  background: url(../images/精灵图.png);
+  background-position: -350px -317px;
+  position: absolute;
+  top: 13px;
+  right: 2px;
+}
+
+.list .list-content .right-data .data-list {
+  padding: 18px 0;
+}
+
+.list .list-content .right-data .data-list .goods {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 60px;
+  padding: 0;
+  margin: 0 15px 60px 12px;
+  border-radius: 0;
+}
+
+.list .list-content .right-data .data-list .goods .img-box {
+  position: relative;
+  width: 290px;
+  height: 290px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list .list-content .right-data .data-list .goods .img-box img {
+  width: 100%;
+}
+
+.list .list-content .right-data .data-list .goods .img-box .tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.list .list-content .right-data .data-list .goods .img-box .tag .tag-hot {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background: #000;
+  font-size: 14px;
+  letter-spacing: 0.75px;
+  color: #fff;
+  line-height: 30px;
+  text-align: center;
+}
+
+.list .list-content .right-data .data-list .goods .img-box .goods-handle {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+.list .list-content .right-data .data-list .goods .img-box .goods-handle .btn-box {
+  width: 160px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 95px 20px 0 0;
+}
+
+.list .list-content .right-data .data-list .goods .img-box .goods-handle .btn-box .btn {
+  color: #000;
+  background: #fff;
+  border: 1px solid #000;
+  height: 42px;
+  line-height: 40px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  white-space: normal;
+  font-size: 14px;
+  padding: 0 20px;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  min-width: 160px;
+  height: 42px;
+  line-height: 42px;
+  cursor: pointer;
+}
+
+.list .list-content .right-data .data-list .goods .img-box .goods-handle .btn-box .btn-black {
+  margin-bottom: 20px;
+  color: #fff;
+  background: #000;
+  cursor: pointer;
+}
+
+.list .list-content .right-data .data-list .goods .img-box:hover .goods-handle {
+  display: block;
+}
+
+.list .list-content .right-data .data-list .goods .details-box .goods-capacity {
+  padding: 20px 40px;
+  height: 22px;
+  text-align: center;
+}
+
+.list .list-content .right-data .data-list .goods .details-box .goods-capacity p {
+  margin: 0;
+  font-size: 18px;
+  color: #000;
+  letter-spacing: 1px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.list .list-content .right-data .data-list .goods .details-box .goods-name {
+  margin: 0 0 10px;
+  overflow: hidden;
+  height: 20px;
+  text-align: center;
+}
+
+.list .list-content .right-data .data-list .goods .details-box .goods-name a {
+  font-size: 18px;
+  color: #000;
+  letter-spacing: 1px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  line-height: 22px;
+}
+
+.list .list-content .right-data .data-list .goods .details-box .goods-introduce {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.list .list-content .right-data .data-list .goods .details-box .goods-introduce p {
+  font-size: 18px;
+  color: #999;
+  line-height: 1;
+  overflow: hidden;
+  height: 38px;
+}
+
+.list .list-content .right-data .data-list .goods .details-box .goods-row .goods-star {
+  position: relative;
+  vertical-align: bottom;
+  width: 153px;
+  float: left;
+  text-align: center;
+}
+
+.list .list-content .right-data .data-list .goods .details-box .goods-row .goods-star ul li {
+  display: inline-block;
+  width: 15px;
+  height: 14px;
+}
+
+.list .list-content .right-data .data-list .goods .details-box .goods-row .goods-star ul li .icon {
+  background: url(../images/精灵图.png);
+  background-position: -254px -301px;
+  width: 15px;
+  height: 14px;
+  display: inline-block;
+}
+
+.list .list-content .right-data .data-list .goods .details-box .goods-row .goods-star ul::after {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  content: "";
+  width: 1px;
+  height: 30px;
+  background: #dadada;
+}
+
+.list .list-content .right-data .data-list .goods .details-box .goods-row .goods-price {
+  width: 50px;
+  float: right;
+  font-size: 18px;
+  font-family: "gotham-bold", "Helvetica", "PingFangSC-Regular", "Arial", "Times New Roman", "微软雅黑", "Microsoft YaHei", sans-serif;
+  color: #000;
+  line-height: 1;
+  vertical-align: bottom;
+  margin-right: 60px;
+}

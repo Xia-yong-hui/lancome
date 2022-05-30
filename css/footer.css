@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+.footer-guide {
+  width: 100%;
+  height: 292px;
+  background-color: #000;
+  position: relative;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 54px 0 52px;
+}
+
+.footer-guide .us {
+  height: 168px;
+  padding: 0 15px 0 150px;
+  margin: 0 95px;
+}
+
+.footer-guide .us li {
+  width: 19%;
+  display: inline-block;
+  vertical-align: top;
+  color: white;
+}
+
+.footer-guide .us li div a {
+  color: #fff;
+}
+
+.footer-guide .us li ul {
+  margin: 7px 0 54px;
+}
+
+.footer-guide .us li ul li {
+  width: 233px;
+  color: #fff;
+}
+
+.footer-guide .us li ul li a {
+  color: #999;
+  font-size: 14px;
+  line-height: 26px;
+  display: inline-block;
+}
+
+.footer-guide .us li .icon-footer-weixin {
+  background-position: -230px -301px;
+  width: 18px;
+  height: 14px;
+}
+
+.footer-guide .us li .icon-footer-weibo {
+  background-position: -206px -301px;
+  width: 18px;
+  height: 14px;
+}
+
+.footer-guide .email {
+  position: relative;
+  color: #fff;
+  padding: 0 245px 0 150px;
+  max-width: 1330px;
+  margin: 0 auto;
+}
+
+.footer-guide .email .email-content {
+  margin: -40px 95px;
+}
+
+.footer-guide .email .email-content p {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 0 13px;
+}
+
+.footer-guide .email .email-content p .icon-mail {
+  vertical-align: middle;
+  margin: -4px 6px 0 0;
+  background-position: -179px -336px;
+  width: 21px;
+  height: 16px;
+}
+
+.footer-guide .email .email-content .form-ipt {
+  position: relative;
+  width: 234px;
+}
+
+.footer-guide .email .email-content .form-ipt input {
+  background: 0 0;
+  border: 1px solid #b3b3b3;
+  font-size: 14px;
+  color: #999;
+  width: 100%;
+  height: 30px;
+  box-sizing: border-box;
+  padding: 3px 57px 4px 12px;
+}
+
+.footer-guide .email .email-content .form-ipt button {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  background: 0 0;
+  width: 54px;
+  height: 20px;
+  color: #fff;
+  font-size: 14px;
+  border: 0;
+  border-left: 1px solid #b3b3b3;
+  cursor: pointer;
+}
+
+.icon {
+  background-image: url(../images/精灵图.png);
+  display: inline-block;
+}
+
+.footer-container {
+  text-align: center;
+  padding: 30px;
+  color: #000;
+  font-size: 12px;
+}
+
+.footer-container p {
+  margin-bottom: 18px;
+  font-size: 12px;
+}
+
+.footer-container ul {
+  margin-bottom: 30px;
+}
+
+.footer-container ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-container ul li .icon-hz1 {
+  display: inline-block;
+  background-position: -379px -267px;
+  width: 17px;
+  height: 17px;
+}
+
+.footer-container ul li .icon-hz2 {
+  background-position: -292px -265px;
+  width: 18px;
+  height: 20px;
+}
+
+.footer-container .gray {
+  color: #999;
+}
+
+.footer-container .gray ul>li {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 6px;
+  position: relative;
+  margin: 0;
+}
+
+.footer-container .gray ul>li::after {
+  content: "";
+  width: 1px;
+  height: 12px;
+  background: #ccc;
+  border: 0;
+  position: absolute;
+  top: 3px;
+  margin: 0 0 0 7px;
+}
+
+.footer-container .gray p>a {
+  color: #999;
+  text-decoration: underline;
+}

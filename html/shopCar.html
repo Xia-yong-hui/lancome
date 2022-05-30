@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/shopCar.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <a href="/">
+                    <img src="../images/logo.png" title="兰蔻官方商城" alt="兰蔻官方商城">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 内容部分 -->
+    <section>
+        <!-- 广告文字 -->
+        <div class="advert">
+            <div class="advert-text">
+                会员兑礼|低至500积分|兑明星美礼
+            </div>
+            <div class="close">
+                <i class="icon icon-close"></i>
+            </div>
+        </div>
+
+        <!-- 购物车商品部分 -->
+        <div class="shop-goods">
+            <!-- 进度条 -->
+            <ul class="progress-bar">
+                <!-- 给li添加is-active类名显示当前进度 -->
+                <li class="is-active">购物车</li>
+                <li class="">确认及付款</li>
+                <li class="">完成</li>
+            </ul>
+
+            <!-- 购物车数据 -->
+            <div class="shopCart">
+                <!-- 左侧 内容 -->
+                <div class="cart-left">
+                    <h3>您共加购了1件商品</h3>
+                    <p class="tip">
+                        恭喜您获得<b>免邮资格</b>！（付邮试用活动除外）
+                    </p>
+
+                    <!-- 商品购物车头部 -->
+                    <div class="shopcart-title">
+                        <!-- 勾选框 -->
+                        <label class="form-checkbox">
+                            <!-- 若选中的话加一个类名 is-checked -->
+                            <input type="checkbox" id="allcheck">
+                        </label>
+                        <!-- 全选 -->
+                        <div class="shopcart-all">
+                            <p class="check-all">全选</p>
+                        </div>
+                        <!-- 单价数量小计 -->
+                        <div class="shopcart-count">
+                            <div>商品信息</div>
+                            <div>单价</div>
+                            <div>数量</div>
+                            <div>小计</div>
+                        </div>
+                    </div>
+
+                    <!-- 购物车内容 -->
+                    <div class="shopcart-content">
+                        <!-- 容器 -->
+                        <div class="shop">
+
+                        </div>
+
+                        <!-- 订单总价 -->
+                        <div class="shopcart-total-price">
+                            <span>订单总价</span>
+                            <div class="orderprice">
+                                <p>
+                                    商品价格
+                                    <span class="totalPrice">¥0</span>
+                                </p>
+                                <p>
+                                    优惠金额
+                                    <span>¥0</span>
+                                </p>
+                                <p>
+                                    运费
+                                    <span>¥0</span>
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- 结算 -->
+                        <div class="total-box">
+                            <p class="price-all">
+                                总价
+                                <span class="totalPrice">¥0</span>
+                            </p>
+
+                            <!-- 继续购物或者结算 -->
+                            <div class="shopping-opt">
+                                <a class="sbtn1">继续购物</a>
+                                <a class="sbtn2">立即结算</a>
+                                <img id="skm" src="../images/skm.jpg" class="skm none">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+                <!-- 右侧 结算 -->
+                <div class="cart-right">
+                    <!-- 订单总结 -->
+                    <div class="cart-all">
+                        <h3>订单总结</h3>
+                        <a class="btn" id="skm2">立即结算</a>
+                        <div class="cart-price">
+                            <p>商品价格<span class="totalPrice">¥0</span></p>
+                            <p>优惠金额<span>¥0</span></p>
+                            <p>运费<span>¥0</span></p>
+                            <p>总价<span class="totalPrice">¥0</span></p>
+                        </div>
+                    </div>
+
+                    <!-- 支付中遇到的问题 -->
+                    <div class="help-box">
+                        <h5>支付中遇到问题？</h5>
+                        <div class="cont-box">
+                            <!-- 在线客服 -->
+                            <div class="item-cont">
+                                <img src="https://res.lancome.com.cn/build/images/shoppingcart/kefu.png" alt="">
+                                <p class="title">在线客服</p>
+                                <div class="text">
+                                    <p>我们的在线美容顾问</p>
+                                    <p>将为您及时<a>解答疑问</a></p>
+                                </div>
+                            </div>
+                            <!-- 服务热线 -->
+                            <div class="item-cont">
+                                <img src="https://res.lancome.com.cn/build/images/shoppingcart/phone.png" alt="">
+                                <p class="title">服务热线</p>
+                                <div class="text">
+                                    <p class="phone">400-820-8016</p>
+                                    <p class="bb">工作日周一至周五9:00-18:00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <!-- 黑色部分 -->
+        <div class="footer-guide">
+            <!-- 关于我们 -->
+            <ul class="us">
+                <li>
+                    <div>关于我们</div>
+                    <ul>
+                        <li class="us-content">
+                            <a href="#">加入兰蔻</a>
+                        </li>
+                        <li class="us-content">
+                            <a href="#">会员中心</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div>联系我们</div>
+                    <ul>
+                        <li class="us-content">
+                            <a href="#">线上美容顾问</a>
+                        </li>
+                        <li class="us-content">
+                            <a href="#">客服热线：400-820-8016</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div>
+                        <a href="#">配送及退货</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#">专柜查询</a>
+                    </div>
+                </li>
+                <li>
+                    <div>关注我们</div>
+                    <ul>
+                        <li class="us-content">
+                            <i class="icon icon-footer-weixin"></i>
+                            <a href="#">官方微信</a>
+                        </li>
+                        <li class="us-content">
+                            <i class="icon icon-footer-weibo"></i>
+                            <a href="#">官方微博</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- 电子邮箱 -->
+            <div class="email">
+                <div class="email-content">
+                    <p>
+                        <i class="icon icon-mail"></i>
+                        <span>电子邮件</span>
+                    </p>
+                    <div class="form-ipt">
+                        <input type="text" placeholder="*输入您的邮箱" id="ipt">
+                        <button class="footer-email-btn">确定</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 白色部分 -->
+        <div class="footer-container">
+
+            <!-- 第一行 -->
+            <p>
+                国家药监局提示您：宣称用于祛斑美白、防晒、染发、烫发等的化妆品为特殊用途化妆品，产品标签上应标注“国妆特字”或者“国妆特进字”的标准文号。
+            </p>
+
+            <!-- 第二行 -->
+            <ul>
+                <li>
+                    © L’Oreal China 欧莱雅（中国）有限公司版权所有
+                </li>
+                <li>
+                    <i class="icon icon-hz1"></i>
+                    中国工商沪ICP备08100043号-34
+                </li>
+                <li>
+                    <i class="icon icon-hz2"></i>
+                    沪公网安备 31010602001526号
+                </li>
+            </ul>
+
+            <div class="gray">
+                <!-- 第三行 -->
+                <ul>
+                    <li>使用条款</li>
+                    <li>Cookies政策</li>
+                    <li>隐私政策</li>
+                </ul>
+
+                <!-- 第四行 -->
+                <p>
+                    浏览该网站表示您接受并同意我们使 用cookies为您提供个性化的浏览体验。点击
+                    <a href="https://policy.lorealchina.com/cookiespolicy">Cookies政策</a>
+                    了解详情
+                </p>
+            </div>
+
+
+        </div>
+    </footer>
+    <script src="../lib/jquery-2.2.4.js"></script>
+    <script src="../lib/layer/layer.js"></script>
+    <script src="../js/axios.min.js"></script>
+    <script src="../js/cart.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+[
+    {
+        "id": 1,
+        "username": "admin",
+        "password": "123456",
+        "nickname": "千锋教育",
+        "identity": "超级管理员",
+        "gender": "男",
+        "age": 18,
+        "createTime": 1622087544072,
+        "updateTime": 1622289180926,
+        "cart": [
+            {
+                "goods_id": 3,
+                "price": "¥1080",
+                "src": "https://res.lancome.com.cn/resources/2021/8/31/16304217709296550_460X460.jpg?version=20210902204759598",
+                "title": "菁纯眼霜",
+                "goodsClassify": "20ml",
+                "titleEng": "Absolue Yeux Precious Cells Eyecream",
+                "tag_hot": "热卖",
+                "cart_number": 3,
+                "count": 1
+            },
+            {
+                "goods_id": 4,
+                "price": "¥1380",
+                "src": "https://res.lancome.com.cn/resources/2021/8/31/16304218419628945_460X460.jpg?version=20210902204759598",
+                "title": "菁纯面霜 ",
+                "goodsClassify": "30ml 轻盈版",
+                "titleEng": "Absolue Day Cream Valueset",
+                "tag_hot": "人气",
+                "cart_number": 4,
+                "count": 1
+            },
+            {
+                "goods_id": 6,
+                "price": "¥680",
+                "src": "https://res.lancome.com.cn/resources/2021/8/31/16304221949363230_460X460.jpg?version=20210902204759598",
+                "title": "大眼精华",
+                "goodsClassify": "20ml",
+                "titleEng": "Genifique Yeux Light-Pearl",
+                "tag_hot": "新品",
+                "cart_number": 5,
+                "count": 1
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "username": "guoxiang",
+        "password": "gx123456",
+        "nickname": "前端小灰狼",
+        "identity": "二阶段讲师",
+        "gender": "男",
+        "age": 18,
+        "createTime": 1622087544072,
+        "updateTime": 1622087544072,
+        "cart": []
+    },
+    {
+        "id": 3,
+        "username": "zhangyuning",
+        "password": "zyn123456",
+        "nickname": "贫嘴张大民",
+        "identity": "二阶段讲师",
+        "gender": "男",
+        "age": 59,
+        "createTime": 1622087544072,
+        "updateTime": 1622087544072,
+        "cart": []
+    },
+    {
+        "id": 4,
+        "username": "yanghuaizhi",
+        "password": "yhz123456",
+        "nickname": "公羊无衣",
+        "identity": "二阶段讲师",
+        "gender": "男",
+        "age": 19,
+        "createTime": 1622087544072,
+        "updateTime": 1622087544072,
+        "cart": []
+    },
+    {
+        "id": 5,
+        "username": "liyingli",
+        "password": "lyl123456",
+        "nickname": "码小花",
+        "identity": "一阶段讲师",
+        "gender": "女",
+        "age": 20,
+        "createTime": 1622087544072,
+        "updateTime": 1622087544072,
+        "cart": []
+    },
+    {
+        "id": 6,
+        "username": "liyong",
+        "password": "ly123456",
+        "nickname": "铁牛哥哥",
+        "identity": "一阶段讲师",
+        "gender": "男",
+        "age": 17,
+        "createTime": 1622087544072,
+        "updateTime": 1622532756548,
+        "cart": []
+    },
+    {
+        "id": 7,
+        "username": "lurongtao",
+        "password": "lrt123456",
+        "nickname": "古艺散人",
+        "identity": "三阶段讲师",
+        "gender": "男",
+        "age": 18,
+        "createTime": 1622087544072,
+        "updateTime": 1622087544072,
+        "cart": []
+    }
+]

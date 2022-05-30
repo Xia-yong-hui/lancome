@@ -1,0 +1,46 @@
+.pagination {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.pagination span, .pagination strong, .pagination em {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #a0d1ee;
+  border: 2px solid snow;
+  margin: 0 20px 0 0;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.pagination em {
+  width: 100px;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+.pagination b {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 20px 0 0;
+}
+
+.pagination strong {
+  width: 80px;
+  border-radius: 5px;
+}
+
+.pagination span.active {
+  background-color: #466acf;
+  color: #fff;
+  border-radius: 10px;
+}

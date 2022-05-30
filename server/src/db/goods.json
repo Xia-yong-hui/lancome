@@ -1,0 +1,434 @@
+[
+    {
+        "goods_id": 1,
+        "price": "¥435",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304221859206837_460X460.jpg?version=20210902204759598",
+        "title": "明星大粉水",
+        "goodsClassify": "400ml",
+        "titleEng": "Tonique Confort",
+        "tag_hot": "人气"
+    },
+    {
+        "goods_id": 2,
+        "price": "¥1080",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304221264087200_460X460.jpg?version=20210902204759598",
+        "title": "「小黑瓶」",
+        "goodsClassify": "50ml",
+        "titleEng": "Advanced Genifique Youth Activating Concentrate",
+        "tag_hot": "人气"
+    },
+    {
+        "goods_id": 3,
+        "price": "¥1080",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304217709296550_460X460.jpg?version=20210902204759598",
+        "title": "菁纯眼霜",
+        "goodsClassify": "20ml",
+        "titleEng": "Absolue Yeux Precious Cells Eyecream",
+        "tag_hot": "热卖"
+    },
+    {
+        "goods_id": 4,
+        "price": "¥1380",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304218419628945_460X460.jpg?version=20210902204759598",
+        "title": "菁纯面霜 ",
+        "goodsClassify": "30ml 轻盈版",
+        "titleEng": "Absolue Day Cream Valueset",
+        "tag_hot": "人气"
+    },
+    {
+        "goods_id": 5,
+        "price": "¥530",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304221513943752_460X460.jpg?version=20210902204759598",
+        "title": "全新发光眼霜",
+        "goodsClassify": "15ml",
+        "titleEng": "Advanced Genifique Yeux Youth Activating Eye Cream",
+        "tag_hot": "人气"
+    },
+    {
+        "goods_id": 6,
+        "price": "¥680",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304221949363230_460X460.jpg?version=20210902204759598",
+        "title": "大眼精华",
+        "goodsClassify": "20ml",
+        "titleEng": "Genifique Yeux Light-Pearl",
+        "tag_hot": "新品"
+    },
+    {
+        "goods_id": 7,
+        "price": "¥895",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304221625069597_460X460.jpg?version=20210902204759598",
+        "title": "塑颜霜",
+        "goodsClassify": "50ml",
+        "titleEng": "Renergie Multi-Lift Ultra Cream",
+        "tag_hot": "新品"
+    },
+    {
+        "goods_id": 8,
+        "price": "¥595",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304221754014666_460X460.jpg?version=20210902204759598",
+        "title": "水份缘凝霜",
+        "goodsClassify": "50ml",
+        "titleEng": "Hydra Zen Moisturising Gel Cream",
+        "tag_hot": "新品"
+    },
+    {
+        "goods_id": 9,
+        "price": "¥790",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304219099953736_460X460.jpg?version=20210902204759598",
+        "title": "「极光水」",
+        "goodsClassify": "150ml",
+        "titleEng": "Clarifique Face Essence",
+        "tag_hot": "新品"
+    },
+    {
+        "goods_id": 10,
+        "price": "¥740",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/1630420633502653_460X460.jpg?version=20210902204759598",
+        "title": "净澈焕肤亮白霜",
+        "goodsClassify": "50ml",
+        "titleEng": "Clarifique Brightening Plumping Milky Cream",
+        "tag_hot": "新品"
+    },
+    {
+        "goods_id": 11,
+        "price": "¥830",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/1630421980902368_460X460.jpg?version=20210902204759598",
+        "title": "净澈焕肤淡斑精华",
+        "goodsClassify": "30ml",
+        "titleEng": "Clarifique Spot Eraser",
+        "tag_hot": "新品"
+    },
+    {
+        "goods_id": 12,
+        "price": "¥480",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304217878584555_460X460.jpg?version=20210902204759598",
+        "title": "「小白管」防晒乳",
+        "goodsClassify": "30ml",
+        "titleEng": "UV Expert Aqua Gel ",
+        "tag_hot": "新品"
+    },
+    {
+        "goods_id": 13,
+        "price": "¥760",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304208948181407_460X460.jpg?version=20210902204759598",
+        "title": "极光乳液",
+        "goodsClassify": "75ml",
+        "titleEng": "Clarifique Watery Temulsion",
+        "tag_hot": "新品"
+    },
+    {
+        "goods_id": 14,
+        "price": "¥365",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/1630421991851136_460X460.jpg?version=20210902204759598",
+        "title": "净澈焕肤洁面乳",
+        "goodsClassify": "125ml",
+        "titleEng": "Clarifique Pore Refining Cleansing Foam",
+        "tag_hot": "新品"
+    },
+    {
+        "goods_id": 15,
+        "price": "¥890",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304220964766871_460X460.jpg?version=20210902204759598",
+        "title": "菁纯防晒隔离乳",
+        "goodsClassify": "30ml",
+        "titleEng": "Absolue Precious Cells UV",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 16,
+        "price": "¥1550",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304209358926069_460X460.jpg?version=20210902204759598",
+        "title": "极光润白套装",
+        "goodsClassify": "极光水150ml+极光乳液75ml",
+        "titleEng": "",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 17,
+        "price": "¥1530",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304219644505675_460X460.jpg?version=20210902204759598",
+        "title": "极光焕白套装",
+        "goodsClassify": "极光水150ml+极光5号霜50ml",
+        "titleEng": "Clarifique Dual Essence&amp;Clarifique Brightening Plumping Milky Cream",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 18,
+        "price": "¥1290",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304208194589130_460X460.jpg?version=20210902204759598",
+        "title": "小黑家族套装",
+        "goodsClassify": "小黑瓶30ml+发光眼霜15ml",
+        "titleEng": "Génifique Youth Activating Duo",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 19,
+        "price": "¥1475",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304206845488112_460X460.jpg?version=20210902204759598",
+        "title": "塑颜紧致套装",
+        "goodsClassify": "塑颜水200ml+塑颜霜50ml",
+        "titleEng": "Rénergie Multi-Lift Ultra Cream &amp; Gel-In-Lotion Duo",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 20,
+        "price": "¥1030",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304206694219049_460X460.jpg?version=20210902204759598",
+        "title": "保湿舒缓套装",
+        "goodsClassify": "水份缘凝霜50ml+口碑粉水400ml",
+        "titleEng": "Tonique Confort &amp; Hydra Zen Facial Duo",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 21,
+        "price": "¥2260",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304219370081913_460X460.jpg?version=20210902204759598",
+        "title": "菁纯面部奢养套装",
+        "goodsClassify": "菁纯面霜30ml+菁纯柔肤水150ml",
+        "titleEng": "Absolue Rose 80 &amp; Abolue Precious Cells Cream Set",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 22,
+        "price": "¥1195",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304206519761359_460X460.jpg?version=20210902204759598",
+        "title": "畅销星品套装",
+        "goodsClassify": "小黑瓶30ml+粉水400ml",
+        "titleEng": "Advanced Génifique &amp; Tonique Confort Facial Duo",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 23,
+        "price": "¥1060",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304223305257910_460X460.jpg?version=20210902204759598",
+        "title": "红唇美肤套装",
+        "goodsClassify": "小黑瓶30ml+丝绒雾面唇膏#295",
+        "titleEng": "Advanced Genifique Youth Activating Concentrate &amp; L'Absolu Rouge",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 24,
+        "price": "¥1500",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304219494422725_460X460.jpg?version=20210902204759598",
+        "title": "塑颜紧致礼盒",
+        "goodsClassify": "塑颜凝露水+塑颜焕白乳液",
+        "titleEng": "Renergie Multi-Lift Gel-In-Lotion &amp; Ren Lift&amp;bright Emulsion",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 25,
+        "price": "¥2765",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304223159816076_460X460.jpg?version=20210902204759598",
+        "title": "紧致焕肤3件套",
+        "goodsClassify": "小黑瓶50ml+极光水150ml+塑颜霜50ml",
+        "titleEng": "Activating &amp; Refining Skincare Set",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 26,
+        "price": "¥2880",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304210044572455_460X460.jpg?version=20210902204759598",
+        "title": "全新菁纯精华",
+        "goodsClassify": "30ml",
+        "titleEng": "",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 27,
+        "price": "¥880",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304218524751287_460X460.jpg?version=20210902204759598",
+        "title": "菁纯玫瑰柔肤水",
+        "goodsClassify": "150ml",
+        "titleEng": "Absolue Rose 80",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 28,
+        "price": "¥920",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304219238665671_460X460.jpg?version=20210902204759598",
+        "title": "塑颜紧致焕白乳液",
+        "goodsClassify": "100ml",
+        "titleEng": "Ren Lift&amp;bright Emulsion",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 29,
+        "price": "¥520",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304226570546926_460X460.jpg?version=20210902204759598",
+        "title": "水份缘乳液",
+        "goodsClassify": "50ml",
+        "titleEng": "Hydra Zen Moisturizer",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 30,
+        "price": "¥580",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304226745291519_460X460.jpg?version=20210902204759598",
+        "title": "塑颜凝露水",
+        "goodsClassify": "200ml",
+        "titleEng": "Renergie Multi-Lift Gel-In-Lotion",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 31,
+        "price": "¥620",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304226691091166_460X460.jpg?version=20210902204759598",
+        "title": "塑颜眼霜",
+        "goodsClassify": "15ml",
+        "titleEng": "Renergie Yeux Multi-Lift Anti-Wrinkle Eye Cream",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 32,
+        "price": "¥395",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304226863491232_460X460.jpg?version=20210902204759598",
+        "title": "男士洁面乳",
+        "goodsClassify": "100ml",
+        "titleEng": "Men Ultimate Cleansing Gel",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 33,
+        "price": "¥3980",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304226930659742_460X460.jpg?version=20210902204759598",
+        "title": "黑金臻宠面霜",
+        "goodsClassify": "50ml",
+        "titleEng": "Absolue L'extrait Ultimate Elixir",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 34,
+        "price": "¥1520",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/16304226980485464_460X460.jpg?version=20210902204759598",
+        "title": "黑金臻宠美容液",
+        "goodsClassify": "150ml",
+        "titleEng": "Absolue L’extrait Ultimate Beautifying Lotion",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 35,
+        "price": "¥4300",
+        "src": "https://res.lancome.com.cn/resources/2021/8/31/1630422703665851_460X460.jpg?version=20210902204759598",
+        "title": "黑金精华乳",
+        "goodsClassify": "30ml",
+        "titleEng": "Absolue L’extrait Inconparable Elixir",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 36,
+        "price": "¥480",
+        "src": "https://res.lancome.com.cn/resources/2021/6/20/16242012502453474_460X460.jpg?version=20210902204759598",
+        "title": "小黑眼膜",
+        "goodsClassify": "7片装",
+        "titleEng": "Genifique Light-Pearl Youth Activating",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 37,
+        "price": "¥780",
+        "src": "https://res.lancome.com.cn/resources/2020/9/29/16013595651999378_460X460.jpg?version=20210902204759598",
+        "title": "男士小黑瓶劲能精华露 ",
+        "goodsClassify": "50ml",
+        "titleEng": "Men Genific HD Youth Activating Concentrate",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 38,
+        "price": "¥2680",
+        "src": "https://res.lancome.com.cn/resources/2021/5/29/16222238579784145_460X460.jpg?version=20210902204759598",
+        "title": "兰蔻菁纯臻颜精萃精华乳",
+        "goodsClassify": "30ml",
+        "titleEng": "Absolue Oleo Serum",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 39,
+        "price": "¥760",
+        "src": "https://res.lancome.com.cn/resources/2021/4/13/16182826536249977_460X460.jpg?version=20210902204759598",
+        "title": "菁纯臻颜精萃卸妆洁面凝乳",
+        "goodsClassify": "125ml",
+        "titleEng": "Absolue Gel Cleanser",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 40,
+        "price": "¥680",
+        "src": "https://res.lancome.com.cn/resources/2020/9/29/16013593083918621_460X460.jpg?version=20210902204759598",
+        "title": "塑颜紧致焕亮面膜",
+        "goodsClassify": "5x20g",
+        "titleEng": "Renergie Multi-Lift Ultra",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 41,
+        "price": "¥1350",
+        "src": "https://res.lancome.com.cn/resources/2020/9/29/16013593809577248_460X460.jpg?version=20210902204759598",
+        "title": "塑颜紧致焕白精华乳",
+        "goodsClassify": "50ml",
+        "titleEng": "Renergie Multi-Lift Ultra Serum",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 42,
+        "price": "¥320",
+        "src": "https://res.lancome.com.cn/resources/2020/9/29/16013585452793013_460X460.jpg?version=20210902204759598",
+        "title": "清滢眼部卸妆水",
+        "goodsClassify": "125ml",
+        "titleEng": "Bi-Facil",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 43,
+        "price": "¥365",
+        "src": "https://res.lancome.com.cn/resources/2020/9/29/16013585763515959_460X460.jpg?version=20210902204759598",
+        "title": "清滢洁面摩丝",
+        "goodsClassify": "200ml",
+        "titleEng": "Mousse Eclat Cleanser",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 44,
+        "price": "¥880",
+        "src": "https://res.lancome.com.cn/resources/2020/9/29/16013595724612076_460X460.jpg?version=20210902204759598",
+        "title": "男士活力修护露",
+        "goodsClassify": "50ml",
+        "titleEng": "Men Age Fight Fluide",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 45,
+        "price": "¥2900",
+        "src": "https://res.lancome.com.cn/resources/2020/9/29/16013745544937419_460X460.jpg?version=20210902204759598",
+        "title": "兰蔻黑金臻宠眼部护理组合",
+        "goodsClassify": "15ml+7.5g*6",
+        "titleEng": "Absolue L'Extrait Yeux",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 46,
+        "price": "¥2800",
+        "src": "https://res.lancome.com.cn/resources/2021/4/15/16184766655732553_460X460.jpg?version=20210902204759598",
+        "title": "菁纯润白乳霜",
+        "goodsClassify": "60ml 轻盈版",
+        "titleEng": "Absolue Fresh Cream",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 47,
+        "price": "¥760",
+        "src": "https://res.lancome.com.cn/resources/2021/4/13/16182826412673643_460X460.jpg?version=20210902204759598",
+        "title": "菁纯臻颜精萃卸妆洁面啫喱",
+        "goodsClassify": "125ml",
+        "titleEng": "Absolue Oil-In-Gel Cleanser",
+        "tag_hot": null
+    },
+    {
+        "goods_id": 48,
+        "price": "¥2200",
+        "src": "https://res.lancome.com.cn/resources/2020/9/29/16013744671682071_460X460.jpg?version=20210902204759598",
+        "title": "菁纯臻颜乳液",
+        "goodsClassify": "75ml",
+        "titleEng": "ABS Precious CellsIntense Emulsion",
+        "tag_hot": null
+    }
+]
