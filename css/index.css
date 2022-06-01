@@ -305,13 +305,30 @@
   height: 23px;
 }
 
-.swiper1 {
+.photo {
   position: relative;
   top: -138px;
+  width: 100%;
+  height: 710px;
+  overflow: hidden;
+  position: relative;
 }
 
-.swiper1 img {
+.photo .photo-wrapper .photo-slide {
+  position: absolute;
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+.photo img {
   width: 100%;
+}
+
+.photo .photo-wrapper .rotation {
+  position: absolute;
+  z-index: 7;
+  opacity: 1;
 }
 
 .swiper1 .my-bullet-active {
@@ -627,40 +644,8 @@
   justify-content: center;
 }
 
-/* .back-top {
-  font-size: 0;
-  width: 50px;
-  height: auto;
-  text-align: center;
-  background: 0 0;
-  position: fixed;
-  right: 0;
-  bottom: 100px;
-  z-index: 8;
-  cursor: pointer;
-  display: block;
+.photo {
+  width: 100%;
+  z-index: 1;
+  margin-top: -180px;
 }
-
-.back-top .top img:hover,
-.back-top a:hover {
-  width: 120%;
-  position: relative;
-  right: 5px;
-}
-
-.back-top div {
-  margin-bottom: 3px;
-}
-
-.back-top div a {
-  width: 50px;
-  height: 50px;
-  display: block;
-  color: white;
-  background: #323332;
-  font-size: 18px;
-}
-
-.back-top div a:hover {
-  background: #9fc8ce;
-} */

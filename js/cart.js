@@ -6,6 +6,99 @@ class Cart {
         // 给全选按钮绑定点击事件
         this.$('#allcheck').addEventListener('click', this.checkAll);
     }
+
+    /*********事件委托*********/
+    dispatch = (eve) => {
+        // console.log(this);
+        // 事件源的获取
+        let target = eve.target;
+        // console.log(target);
+        // 判断当前点击的是删除按钮
+        if (target.nodeName == 'A' && target.classList.contains('delete')) this.delGoodsData(target);
+        // 判断当前点击的是否为+操作
+        if (target.nodeName == 'SPAN' && target.classList.contains('jia')) this.plusGoodsNumJia(target);
+        // 判断当前点击的是否为-操作
+        if (target.nodeName == 'SPAN' && target.classList.contains('jian')) this.plusGoodsNumJian(target);
+    }
+
+    /******数量增加的方法******/
+    plusGoodsNumJia = (tar) => {
+        // console.log(tar);
+        // 获取数量的input
+        let div = tar.parentNode.parentNode.parentNode;
+        // console.log(div);
+        // 获取数量,单价和小计
+        let num = div.querySelector('.num');
+        let sum = div.querySelector('.total-price');
+        let price = div.querySelector('.price').innerHTML - 0;
+        // console.log(num, sum, price);
+        // 获取数量
+        let numVal = num.innerHTML;
+        // 对数量进行加1操作
+        numVal++;
+        // console.log(numVal);
+        // console.log(numVal * price);
+        // 更新input中的数量
+
+        // 给服务器发送数据,增加数量
+        const AUTH_TOKEN = localStorage.getItem('token');
+        axios.defaults.headers.common['authorization'] = AUTH_TOKEN;
+        axios.defaults.headers['Content-Type'] = 'application/x-www-form-urlencoded';
+        let uId = localStorage.getItem('user_id');
+        let gId = div.dataset.id;
+        let param = `id=${uId}&goodsId=${gId}&number=${numVal}`;
+        axios.post('http://localhost:8888/cart/number', param).then(res => {
+            // console.log(res);
+            let { status, data } = res;
+            if (status == 200 && data.code == 1) {
+                // 将更新之后的数量设置回去
+                num.innerHTML = numVal;
+                sum.innerHTML = numVal * price;
+                // 调用统计数量和价格的方法
+                this.countSumPrice();
+            }
+        })
+    }
+
+    /******数量减少的方法******/
+    plusGoodsNumJian = (tar) => {
+        // console.log(tar);
+        // 获取数量的input
+        let div = tar.parentNode.parentNode.parentNode;
+        // console.log(div);
+        // 获取数量,单价和小计
+        let num = div.querySelector('.num');
+        let sum = div.querySelector('.total-price');
+        let price = div.querySelector('.price').innerHTML - 0;
+        // console.log(num, sum, price);
+        // 获取数量
+        let numVal = num.innerHTML;
+        // 对数量进行加1操作
+        numVal--;
+        // console.log(numVal);
+        // console.log(numVal * price);
+        // 更新input中的数量
+
+        // 给服务器发送数据,增加数量
+        const AUTH_TOKEN = localStorage.getItem('token');
+        axios.defaults.headers.common['authorization'] = AUTH_TOKEN;
+        axios.defaults.headers['Content-Type'] = 'application/x-www-form-urlencoded';
+        let uId = localStorage.getItem('user_id');
+        let gId = div.dataset.id;
+        let param = `id=${uId}&goodsId=${gId}&number=${numVal}`;
+        axios.post('http://localhost:8888/cart/number', param).then(res => {
+            // console.log(res);
+            let { status, data } = res;
+            if (status == 200 && data.code == 1) {
+                // 将更新之后的数量设置回去
+                num.innerHTML = numVal;
+                sum.innerHTML = numVal * price;
+                // 调用统计数量和价格的方法
+                this.countSumPrice();
+            }
+        })
+    }
+
     /******全选的实现******/
     checkAll = (eve) => {
         // console.log(this);
@@ -13,7 +106,10 @@ class Cart {
         // console.log(eve.target);
         let allStatus = eve.target.checked;
         // console.log(allStatus);
-        this.oneCheckGoods(allStatus)
+        this.oneCheckGoods(allStatus);
+
+        // 调用统计数量和价格的方法
+        this.countSumPrice();
     }
     // 让单个商品跟随全选的状态
     oneCheckGoods(status) {
@@ -42,6 +138,8 @@ class Cart {
                     // console.log(status);
                     self.$('#allcheck').checked = status;
                 }
+                // 统计价格和数量
+                self.countSumPrice();
             }
         })
     }
@@ -59,14 +157,38 @@ class Cart {
         return !res;
     }
 
-    /******事件委托******/
-    dispatch = (eve) => {
-        // console.log(this);
-        // 事件源的获取
-        let target = eve.target;
-        // console.log(target);
-        if (target.nodeName == 'A' && target.classList.contains('delete')) this.delGoodsData(target);
+    /********统计价格和数量********/
+    countSumPrice() {
+        let sum = 0;
+        let num = 0;
+        // 只统计选中商品
+        this.$('.checkbox').forEach(input => {
+            // console.log(input);
+            // 通过input:checkbox找到div
+            if (input.checked) {
+                let div = input.parentNode.parentNode.parentNode;
+                // console.log(div);
+                // 获取数量和小计
+                let tmpNum = div.querySelector('.num').innerHTML - 0;
+                let tmpSum = div.querySelector('.total-price').innerHTML - 0;
+                // console.log(tmpNum, tmpSum);
+                sum += tmpSum;
+                num += tmpNum;
+            }
+        })
+        // console.log(sum, num);
+        // 将数量和价格放到页面中
+        // console.log(this.$('.totalPrice'));
+        this.$('.totalPrice').forEach(price => {
+            // console.log(price);
+            price.innerHTML = '¥' + sum;
+        })
+        this.$('.totalCount').forEach(count => {
+            // console.log(num);
+            count.innerHTML = num;
+        })
     }
+
     // 删除购物车中的商品,需要用户id和商品id
     delGoodsData(tar) {
         // console.log(tar);
@@ -78,7 +200,7 @@ class Cart {
         }, function () {  //确认的回调函数
             // console.log(111);
             // 给后台发送数据,删除记录
-            // 找到ul上的商品id
+            // 找到div上的商品id
             let div = tar.parentNode.parentNode.parentNode
             let gId = div.dataset.id;
             // 用户id
@@ -87,7 +209,7 @@ class Cart {
             // 必须携带token,后台需要进行验证
             const AUTH_TOKEN = localStorage.getItem('token');
             axios.defaults.headers.common['authorization'] = AUTH_TOKEN;
-            let res = axios.get(' http://localhost:8888/cart/remove', {
+            let res = axios.get('http://localhost:8888/cart/remove', {
                 params: {
                     id: uId,
                     goodsId: gId
@@ -147,17 +269,17 @@ class Cart {
                     </div>
                     <!-- 单价 -->
                     <div class="unit-price">
-                        <p>${goods.price}</p>
+                        <span>¥</span><p class="price">${goods.price}</p> 
                     </div>
                     <!-- 数量选择区间 -->
                     <div class="shop-random">
                         <span class="jian">-</span>
-                        <div class="num">${goods.count}</div>
+                        <div class="num">${goods.cart_number}</div>
                         <span class="jia">+</span>
                     </div>
                     <!-- 小计 -->
                     <div class="shopcart-sum">
-                        <p class="total-price">${goods.price}</p>
+                        <span>¥</span><p class="total-price">${goods.price}</p>
                     </div>
                     <!-- 删除单个商品 -->
                     <div class="shopcart-del-single">

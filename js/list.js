@@ -14,6 +14,8 @@ class List {
         this.$('.data-list').addEventListener('click', this.checkLogin.bind(this));
         // 滚动条事件
         window.addEventListener('scroll', this.lazyLoader);
+        // 给了解详情绑定点击事件
+        this.$('.data-list').addEventListener('click', this.addGoodsJump.bind(this));
     }
 
     /*******获取数据*******/
@@ -159,7 +161,21 @@ class List {
         })
     }
 
-    /*****懒加载*****/
+    /*********商品详情页跳转********/
+    addGoodsJump(eve) {
+        // console.log(this);
+        // console.log(eve.target);
+        // 获取事件源,判断点击的是否为a标签
+        if (eve.target.nodeName != 'A' || eve.target.className != 'btn ljxq') return;
+        //获取商品id并保存
+        let gId = eve.target.parentNode.parentNode.parentNode.parentNode.dataset.id;
+        // console.log(gId);
+        localStorage.setItem('id', gId);
+        // 跳转到详情页面
+        location.assign('./goodsDetail.html')
+    }
+
+    /********懒加载********/
     lazyLoader = () => {
         // 需要滚动条高度,可视区高度,实际内容高度
         let top = document.documentElement.scrollTop;

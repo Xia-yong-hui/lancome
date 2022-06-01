@@ -265,6 +265,12 @@ section .shop-goods .shopCart .cart-left .shopcart-content .shop-data .shop-data
   margin-top: 0px;
 }
 
+section .shop-goods .shopCart .cart-left .shopcart-content .shop-data .shop-data-right .unit-price span {
+  float: left;
+  margin-top: 47px;
+  margin-left: 45px;
+}
+
 section .shop-goods .shopCart .cart-left .shopcart-content .shop-data .shop-data-right .unit-price p {
   width: 100%;
   color: #111;
@@ -332,8 +338,12 @@ section .shop-goods .shopCart .cart-left .shopcart-content .shop-data .shop-data
   margin-top: 47px;
 }
 
+section .shop-goods .shopCart .cart-left .shopcart-content .shop-data .shop-data-right .shopcart-sum span {
+  float: left;
+}
+
 section .shop-goods .shopCart .cart-left .shopcart-content .shop-data .shop-data-right .shopcart-sum p {
-  width: 100%;
+  float: left;
 }
 
 section .shop-goods .shopCart .cart-left .shopcart-content .shop-data .shop-data-right .shopcart-del-single .delete {

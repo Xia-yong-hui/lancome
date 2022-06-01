@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../css/详情.css">
     <link rel="stylesheet" href="../css/详情-大轮播.css">
     <link rel="stylesheet" href="../css/详情-小轮播.css">
-    <link rel="stylesheet" href="https://web.chengqige.com/myTool/scope/scope.css">
 </head>
 
 <body>
@@ -1110,10 +1109,6 @@
                                             </div>
                                         </div>
                                     </div>
-
-
-
-
                                 </li>
                             </ul>
                         </div>
@@ -1128,64 +1123,19 @@
         <!-- 左边轮播图片部分 -->
         <div class="detail-left">
             <!-- 上部大轮播 -->
-            <div class="scope">
-                <div class="small-box" style="width: 560px;height: 560px;">
-                    <img src="../images/detail-img/1.jpg" />
-                    <div class="square"></div>
-                </div>
-                <div class="big-box" style="width: 562px;height: 562px;">
-                    <img src="../images/detail-img/1.jpg" style="width: 1128px;height: 1128px;" />
-                </div>
+            <div class="small">
+                <img src="../images/detail-img/1.jpg" width="460" />
+                <div class="mask"></div>
             </div>
-
-
-            <!-- 下部小轮播 -->
-            <div class="bot-small">
-                <!-- Swiper -->
-                <div class="swiper-container swiper5">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="../images/detail-img/1.jpg" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="../images/detail-img/2.jpg" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="../images/detail-img/3.jpg" alt="">
-                        </div>
-                    </div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next" id="xlb-next"></div>
-                    <div class="swiper-button-prev" id="xlb-prev"></div>
-                </div>
-                <!-- Swiper JS -->
-                <!-- <script src="../static/javascripts/详情-小轮播.js"></script> -->
-
-                <!-- Initialize Swiper -->
-                <!-- <script>
-                    var swiper = new Swiper('.swiper5', {
-                        loop: true,
-                        slidesPerView: 3,
-                        centeredSlides: true,
-                        spaceBetween: 30,
-                        pagination: {
-                            el: '.swiper-pagination',
-                            clickable: true,
-                        },
-                        navigation: {
-                            nextEl: '.swiper-button-next',
-                            prevEl: '.swiper-button-prev',
-                        },
-                    });
-                </script> -->
+            <div class="big">
+                <img src="../images/detail-img/1.jpg" width="900" class="bigImg" />
             </div>
         </div>
-
         <!--右边详细介绍部分 -->
         <div class="detail-right">
             <div class="dbox1">Advanced Genifique Yeux Youth Activating Eye Cream</div>
             <div class="dbox2">全新发光眼霜</div>
-            <div class="dbox3">¥ 530</div>
+            <div class="dbox3">¥530</div>
             <div class="dbox4">15ml</div>
             <div class="dbox5">
                 <div class="details-num-text">
@@ -1209,7 +1159,6 @@
             </div>
 
         </div>
-
     </div>
 
     <!-- 详情页大图部分 -->
@@ -1350,18 +1299,12 @@
 
         </div>
     </footer>
-
+    <!-- <script src="../lib/jquery-2.2.4.js"></script>
+    <script src="../lib/layer/layer.js"></script> -->
+    <!-- list.js依赖于axios,不要搞乱先后顺序 -->
+    <script src="../js/axios.min.js"></script>
+    <script src="../js/details.js"></script>
 
 </body>
-<!-- <script src="../static/javascripts/jquery.js"></script> -->
-<!-- <script src="../static/javascripts/Magnifier.js"></script> -->
-<!-- <script src="https://web.chengqige.com/myTool/scope/scope.js"></script>
-<script src="../static/javascripts/axios.js"></script>
-<script src="./javascripts/nav.js"></script>
-<script src="../static/javascripts/utils.js"></script>
-<script src="../dist/javascripts/详情.js"></script>
-
-<script src="../dist/javascripts/login.js"></script>
-<script src="../dist/javascripts/register.js"></script> -->
 
 </html>
