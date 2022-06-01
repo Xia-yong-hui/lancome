@@ -1,4 +1,4 @@
-class Details {
+class Detail {
     constructor() {
         this.addGoodsItem();
         // 绑定鼠标事件
@@ -76,4 +76,4 @@ class Details {
         return res.length == 1 ? res[0] : res;
     }
 }
-new Details;
+new Detail;
