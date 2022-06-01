@@ -32,7 +32,7 @@ class Details {
         if (tmpy > maskMaxTop) tmpy = maskMaxTop;
         this.$('.mask').style.left = tmpx + 'px';
         this.$('.mask').style.top = tmpy + 'px';
-        // 小黄块的实时位置/小黄块移动的最大位置 == ===  大图实时位置/大图能够移动的最大位置
+        // mask的实时位置/小黄块移动的最大位置 == ===  大图实时位置/大图能够移动的最大位置
         //大图能够移动的最大位置
         let bigImgMaxLeft = this.$('.bigImg').offsetWidth - this.$('.big').offsetWidth;
         let bigImgMaxTop = this.$('.bigImg').offsetHeight - this.$('.big').offsetHeight;
